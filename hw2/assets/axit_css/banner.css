@@ -1,0 +1,157 @@
+.background-img {
+    background-image: url("../axit_img/bg_image.png");
+    width: 94.375rem;
+    height: 64.125rem;
+    margin: auto;
+
+}
+
+.whole-banner {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+    width: 73.125rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12.937rem;
+    box-sizing: border-box;
+    height: 59.375rem;
+}
+
+.banner__logo {
+      width: 16.875rem;
+      height: 6.25rem;
+  }
+
+.banner__title {
+    font-size: 3rem;
+    line-height: 3.52rem;
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 41.875rem;
+    height: 10.5rem;
+    margin: 3.18rem 0 3.44rem;
+  }
+
+.banner__text {
+    font-family: Raleway, sans-serif;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    line-height: 1.3125rem;
+    width: 16.875rem;
+    height: 2.625rem;
+    margin: 2.625rem 0;
+  }
+
+.banner__line {
+    width: 10.625rem;
+    border-bottom: 2px solid #FFFFFF;
+  }
+
+.banner__button {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 0.625rem;
+    border: 2px solid #FFFFFF;
+    line-height: 3.625rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    display: inline-block;
+    width: 16.875rem;
+    text-align: center;
+    padding: 0;
+}
+
+.banner__button:hover {
+    color: #EC7979;
+    border-color: #EC7979;
+}
+
+.banner__button:active {
+    color: #FFFFFF;
+    background-color: #AB4949;
+    border-color: #AB4949;
+}
+
+.banner__form {
+    width: 29.375rem;
+    height: 28.125rem;
+}
+
+.form {
+    background-color: #FFFFFF;
+    border-radius: 0.625rem;
+    position: relative;
+    padding: 0 3.125rem;
+}
+
+.form__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 5.625rem;
+    margin-bottom: 2.81rem;
+
+}
+
+.form__title-highlight {
+    color: #EC7979;
+}
+
+.form__input {
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+}
+
+.form__input:focus {
+    outline: 0;
+    border-color: #EC7979;
+}
+
+.form__button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 29.375rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    color: #FFFFFF;
+    line-height: 3.75rem;
+    background-color: #EC7979;
+    padding: 0;
+    border: #EC7979;
+    border-bottom-right-radius: 0.625rem;
+    border-bottom-left-radius:  0.625rem;
+}
+
+.form__button:hover {
+    background-color: #AB4949;
+}
+
+.form__button:active {
+    background-color: #EC7979;
+    box-shadow: 0 0 0.625rem 0 #AB4949 inset;
+}
+
+.form__group {
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display:flex;
+    flex-direction: column-reverse;
+
+}
+
+
+.form__group label {
+    color: red;
+}

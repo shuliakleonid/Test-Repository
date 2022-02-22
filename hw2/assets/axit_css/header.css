@@ -1,0 +1,47 @@
+.header {
+  background-color: #000000;
+  width: 94.375rem;
+  margin: auto;
+}
+
+.header__main {
+    width: 73.125rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7.205rem 0 10.625rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    height: 4.6875rem;
+}
+
+.header__nav {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+
+.nav__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 4.6875rem;
+    display: inline-block;
+    width: 7.1125rem;
+    text-align: center;
+    padding: 0;
+  }
+
+.nav__link:hover {
+  background-color: #EC7979;
+}
+
+.nav__link:active {
+  background-color: #AB4949;
+}
+
+
+.header__logo {
+    width: 11.44rem;
+    height: 4.6875rem;
+}
